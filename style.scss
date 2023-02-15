@@ -1,0 +1,80 @@
+//----------------------------------------
+// Variables:
+//----------------------------------------
+
+$base-color: rgb(31, 31, 31);
+$secondary-color: white;
+
+//----------------------------------------
+// Styles:
+//----------------------------------------
+
+
+body{
+    background-color: $base-color;
+    color: $secondary-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+//-----------------------------------------
+
+#searchArea{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#searchbar{
+    height: 40px;
+    width: 250px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+.btn{
+    height: 40px;
+    width: 70px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+//-----------------------------------------
+.display{
+    display: flex;
+    gap: 20px;
+}
+
+#image{
+    height: 250px;
+}
+
+#name{
+    margin-top: 40px;
+}
+
+.battleField{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.pkball{
+    height: 250px;
+}
+
+
+//----------------------------------------
+.hidden{
+    display: none;
+}
+
+.winner{
+    border-radius: 15px;
+    background-color: goldenrod;
+}
